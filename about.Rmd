@@ -1,0 +1,11 @@
+---
+title: "Description"
+description: |
+  Notes for DSN AI Bootcamp - Foundations of Machine Learning, Summer 2023.
+---
+
+This site contains materials for this session. You can view the source code here: https://github.com/krisrs1128/dsn_foundations_2023
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+```

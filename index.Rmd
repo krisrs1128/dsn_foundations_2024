@@ -1,0 +1,16 @@
+---
+title: "Foundations of Machine Learning"
+description: | 
+  Notes for the Data Science Nigeria AI Bootcamp 2023.
+site: distill::distill_website
+listing: posts
+---
+
+## Learning Outcomes
+
+Notebooks [[1](https://colab.research.google.com/drive/10jGSLch_g7G72L41rjnswx69PXneeT3w), [2](https://colab.research.google.com/drive/1uJPeyBMRN3vqCoALCvik6X4ccGdpc3zS), [3](https://colab.research.google.com/drive/1C--MSMalpnjh4R5WkgL70J4IIpKlg6U0)]
+
+1. Given a problem description, determine features that may be relevant, including those directly present in the raw data and those that must be constructed.
+1. Given a problem description, determine an appropriate response variable.
+1. Design a model evaluation scheme for a specific problem / model context, keeping in mind the dangers of overfitting and the bias-variance trade-off.
+1. Discuss the relative merits of linear, sparse, and tree-based methods in a particular problem setting, and prepare code that implements them appropriately.
