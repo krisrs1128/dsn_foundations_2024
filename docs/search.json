@@ -3,18 +3,18 @@
     {
       "path": "about.html",
       "title": "Description",
-      "description": "Notes for DSN AI Bootcamp - Foundations of Machine Learning, Summer 2023.",
+      "description": "Notes for DSN AI Bootcamp - Foundations of Machine Learning, Fall 2024.",
       "author": [],
-      "contents": "\nThis site contains materials for this session. You can view the source code here: https://github.com/krisrs1128/dsn_foundations_2023\n\n\n\n",
-      "last_modified": "2023-08-11T20:23:08-04:00"
+      "contents": "\nThis site contains materials for this session. You can view the source code here: https://github.com/krisrs1128/dsn_foundations_2024\n\n\n\n",
+      "last_modified": "2024-10-24T10:05:52-05:00"
     },
     {
       "path": "index.html",
       "title": "Foundations of Machine Learning",
-      "description": "Notes for the Data Science Nigeria AI Bootcamp 2023.\n",
+      "description": "Notes for the Data Science Nigeria AI Bootcamp 2024.\n",
       "author": [],
       "contents": "\nLearning Outcomes\nNotebooks [1, 2, 3]\nGiven a problem description, determine features that may be relevant, including those directly present in the raw data and those that must be constructed.\nGiven a problem description, determine an appropriate response variable.\nDesign a model evaluation scheme for a specific problem / model context, keeping in mind the dangers of overfitting and the bias-variance trade-off.\nDiscuss the relative merits of linear, sparse, and tree-based methods in a particular problem setting, and prepare code that implements them appropriately.\n\n\n\n",
-      "last_modified": "2023-08-11T20:23:11-04:00"
+      "last_modified": "2024-10-24T10:05:53-05:00"
     }
   ],
   "collections": ["posts/posts.json"]
