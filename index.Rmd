@@ -1,7 +1,7 @@
 ---
 title: "Foundations of Machine Learning"
 description: | 
-  Notes for the Data Science Nigeria AI Bootcamp 2023.
+  Notes for the Data Science Nigeria AI Bootcamp 2024.
 site: distill::distill_website
 listing: posts
 ---
@@ -14,3 +14,10 @@ Notebooks [[1](https://colab.research.google.com/drive/10jGSLch_g7G72L41rjnswx69
 1. Given a problem description, determine an appropriate response variable.
 1. Design a model evaluation scheme for a specific problem / model context, keeping in mind the dangers of overfitting and the bias-variance trade-off.
 1. Discuss the relative merits of linear, sparse, and tree-based methods in a particular problem setting, and prepare code that implements them appropriately.
+
+<!-- To compile this site, run
+library(fs)
+library(tidyverse)
+library(rmarkdown)
+map(fs::dir_ls(".", glob="*Rmd", recurse=T), render); render_site()
+ -->
