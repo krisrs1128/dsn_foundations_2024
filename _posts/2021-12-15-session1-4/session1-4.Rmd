@@ -5,7 +5,7 @@ description: |
 author:
   - name: Kris Sankaran
     url: https://krisrs1128.github.com/LSLab
-date: 05-16-2023
+date: 10-25-2024
 output:
   distill::distill_article:
     highlight: pygments
@@ -33,7 +33,6 @@ theme424 <- theme_minimal() +
   )
 theme_set(theme424)
 opts_chunk$set(echo = FALSE, fig.align = "center", out.width = 500)
-use_condaenv("/Users/ksankaran/miniconda3/bin/python3")
 ```
 
 1. In some cases, it might be enough to know that a model is giving the correct
@@ -104,7 +103,7 @@ The block below plots the features against the truth and the predicted values, f
 for (feature in colnames(py$X)) {
   p <- ggplot(py$baseball) +
     geom_point(aes(.data[[feature]], y), position = position_jitter(w =0.1)) +
-    geom_point(aes(.data[[feature]], y), position = position_jitter(w =0.1), col = "blue") +
+    geom_point(aes(.data[[feature]], y_hat), position = position_jitter(w =0.1), col = "blue") +
     labs(title = paste("Plot for ", feature))
   print(p)
 }

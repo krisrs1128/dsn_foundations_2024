@@ -5,7 +5,7 @@ description: |
 author:
   - name: Kris Sankaran
     url: https://krisrs1128.github.com/LSLab
-date: 05-17-2023
+date: 10-25-2024
 output:
   distill::distill_article:
     highlight: pygments
@@ -29,7 +29,6 @@ theme424 <- theme_minimal() +
   )
 theme_set(theme424)
 opts_chunk$set(echo = FALSE, fig.align = "center", out.width = 500)
-use_condaenv("/Users/ksankaran/miniconda3/bin/python3")
 ```
 
 1. Even if we can effectively draw curves through data, we might not actually be
